@@ -9,16 +9,17 @@
     <h1>City Directory</h1>
     
     <form id="cityForm">
-        <input type="text" id="cityName" placeholder="City Name" required>
-        <input type="text" id="country" placeholder="Country" required>
-        <input type="number" id="population" placeholder="Population" required>
+        <input id="cityName" type="text" placeholder="City Name" required>
+        <input id="country" type="text" placeholder="Country" required>
+        <input id="population" type="number" placeholder="Population" required>
         <button type="submit">Add City</button>
     </form>
     
-    <input type="text" id="searchInput" placeholder="Search cities...">
+    <input id="searchInput" type="text" placeholder="Search cities...">
     
-    <ul id="cityList"></ul>
+    <div id="cityList"></div>
     
-    <script src="app.js"></script>
+    <script>var exports = {"__esModule": { value: true }};</script>
+    <script src="./index.js"></script>
 </body>
 </html>
